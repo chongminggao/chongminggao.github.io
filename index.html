@@ -10,7 +10,7 @@
     
     <link rel="alternate" href="/default" title="Chongming GAO (高崇铭)'s Homepage">
     <link rel="icon" type="image/x-icon" sizes="32x32" href="/favicon.ico?v=2" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="style.css?v=20260918-equal-chips" />
 
     <!-- <script src="https://kit.fontawesome.com/d972248ca4.js" crossorigin="anonymous"></script> -->
 
@@ -54,7 +54,7 @@
                 <!-- <p><a href="https://sist.ustc.edu.cn/" target="_blank">School of Information Science and Technology</a></p> -->
                 <p><B>From:</B> <a href="https://data-science.ustc.edu.cn/_upload/tpl/15/04/5380/template5380/people.html" target="_blank">Lab for Data Science (LDS实验室)</a> @ <a href="http://en.ustc.edu.cn/" target="_blank">USTC (中科大)</a></p>
                 <!-- <p><B>Mentor:</B> <a href="http://staff.ustc.edu.cn/~hexn/" target="_blank">Xiangnan He (何向南)</a>.</p> -->
-                <p><B>Research Interest:</B> <I>LLMs, Recommender Systems</I></p>
+                <p><B>Research Interests:</B> <I>Recommender Systems; LLM Personalization; Reinforcement Learning; Controllable Recommendation; LLM Agents</I></p>
                 <!-- <p class="phone"><img src="logo/phone-logo.svg" style="width: 20px;"></icon> (+86) 15008242302</p> -->
                 <div class="contact-row">
                     <a href="https://github.com/chongminggao" title="Github" target="_blank"><span class="github contact"><img src="logo/icons8-github.svg" style="width: 35px;" alt="GitHub"></span></a>
@@ -77,8 +77,8 @@
             </div> -->
             <div class="experiences"> I am currently an Associate Research Professor at the University of Science and Technology of China (USTC), where I also
             received my Ph.D. and completed my postdoctoral training under the supervision of Prof. <a
-                href="http://staff.ustc.edu.cn/~hexn/" target="_blank">Xiangnan He (何向南)</a>. My research focuses on information
-            retrieval and recommender systems.
+                href="http://staff.ustc.edu.cn/~hexn/" target="_blank">Xiangnan He (何向南)</a>. My research focuses on recommender systems, LLM personalization, reinforcement learning, controllable recommendation, and LLM agents.
+            I am particularly interested in recommendation bias, long-term user satisfaction, personalized alignment, and communication and collaboration among LLM agents.
             <!-- I obtained both my M.Eng. and B.Eng. degrees from the University of Electronic Science and Technology of China (UESTC),
             advised by Prof. <a href="https://dm.uestc.edu.cn/people/" target="_blank">Junming Shao (邵俊明)</a>. I have also interned
             at leading technology companies, including Kuaishou, Alibaba DAMO Academy, and Alibaba Group’s AI Labs, where I worked
@@ -89,708 +89,1000 @@
 
     
 
-        <section class="research">
+        <section class="academic-resources" id="workshops-tutorials-surveys" aria-labelledby="resources-title">
+            <h2 class="section-title" id="resources-title"><span>Workshops, Tutorials &amp; Surveys</span></h2>
+
+            <h3 class="resource-heading">Workshops &amp; Tutorials</h3>
+            <div class="event-list">
+                <article class="event-row" aria-labelledby="sigir-tutorial-title">
+                    <div class="event-meta"><span>SIGIR 2026</span><span class="event-type">Tutorial</span></div>
+                    <div class="event-content">
+                        <h4 class="event-title" id="sigir-tutorial-title"><a href="https://llm-personalization.github.io/SIGIR2026/" target="_blank" rel="noopener noreferrer">LLM Personalization: Foundations, Breakthroughs, and Frontiers</a></h4>
+                        <p class="event-details"><span class="event-role">Co-organizer &amp; Presenter</span> · <time datetime="2026-07-20">20 July 2026</time> · Melbourne / Naarm, Australia</p>
+                        <p class="event-resources">09:00–12:30 · Eureka 2 <span class="event-links"><a href="https://llm-personalization.github.io/SIGIR2026/" target="_blank" rel="noopener noreferrer">Website ↗</a><a href="https://llm-personalization.github.io/SIGIR2026/SIGIR26%20PLLM%20Tutorial%20Final.pdf" target="_blank" rel="noopener noreferrer">Slides ↗</a></span></p>
+                    </div>
+                </article>
+                <article class="event-row" aria-labelledby="pila-workshop-title">
+                    <div class="event-meta"><span>KDD 2026</span><span class="event-type">Workshop</span></div>
+                    <div class="event-content">
+                        <h4 class="event-title" id="pila-workshop-title"><a href="https://pila26-workshop.github.io/" target="_blank" rel="noopener noreferrer">PILA ’26: Personal Intelligence in the Agentic AI Era</a></h4>
+                        <p class="event-details"><span class="event-role">Co-organizer</span> · <time datetime="2026-08-10">10 August 2026</time> · Jeju Island, Republic of Korea</p>
+                        <p class="event-resources">08:30–12:05 KST · Halla B <span class="event-links"><a href="https://pila26-workshop.github.io/" target="_blank" rel="noopener noreferrer">Website ↗</a></span></p>
+                    </div>
+                </article>
+                <article class="event-row" aria-labelledby="recsys-tutorial-title">
+                    <div class="event-meta"><span>RecSys 2021</span><span class="event-type">Tutorial</span></div>
+                    <div class="event-content">
+                        <h4 class="event-title" id="recsys-tutorial-title"><a href="https://dl.acm.org/doi/10.1145/3460231.3473325" target="_blank" rel="noopener noreferrer">Conversational Recommendation: Formulation, Methods, and Evaluation</a></h4>
+                        <p class="event-details"><span class="event-role">Co-presenter</span> · Wenqiang Lei, <u><b>Chongming Gao</b></u>, Maarten de Rijke</p>
+                        <p class="event-resources">Amsterdam, Netherlands <span class="event-links"><a href="https://dl.acm.org/doi/10.1145/3460231.3473325" target="_blank" rel="noopener noreferrer">Paper ↗</a><a href="https://staff.fnwi.uva.nl/m.derijke/wp-content/papercite-data/pdf/recsys2021-tutorial_CRS_wl-cg-mdr.pdf" target="_blank" rel="noopener noreferrer">Slides ↗</a></span></p>
+                    </div>
+                </article>
+            </div>
+
+            <h3 class="resource-heading">Surveys</h3>
+            <p class="publication-legend">* Corresponding author</p>
+
+            <ul class="publication-list">
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-01-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">Preprint 2026</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-01-title"><a href="https://www.techrxiv.org/users/1027900/articles/1387604-integrating-large-language-models-with-reinforcement-learning-a-survey-of-llm-rl-synergistic-recommendation" target="_blank" rel="noopener noreferrer">Integrating Large Language Models with Reinforcement Learning: A Survey of LLM-RL Synergistic Recommendation</a></h4>
+                            <p class="pub-authors">Mengyao Gao, <u><b>Chongming Gao*</b></u>, Jiakai Tang, Jingsen Zhang, Xinpeng Zhao, Bohao Wang, Jiawei Chen, Haoran He, Ling Pan, Xu Chen, Xin Xin, Qingpeng Cai, Peng Jiang, Kun Gai, Haoyan Liu, Fuli Feng, Xiangnan He</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://www.techrxiv.org/users/1027900/articles/1387604-integrating-large-language-models-with-reinforcement-learning-a-survey-of-llm-rl-synergistic-recommendation" target="_blank" rel="noopener noreferrer">Paper</a>
+                                    <a href="https://zhuanlan.zhihu.com/p/2017951416166154687" target="_blank" rel="noopener noreferrer">知乎</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Reinforcement Learning</li>
+                                    <li>Long-term Recommendation</li>
+                                    <li>User Simulation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-02-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">Preprint 2026</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-02-title"><a href="https://arxiv.org/pdf/2606.00540" target="_blank" rel="noopener noreferrer">Trustworthy Recommendation in the Era of Large Language Models: Opportunities and Challenges</a></h4>
+                            <p class="pub-authors">Bohao Wang, Yu Cui, Zhenxiang Xu, Jujia Zhao, Chenxiao Fan, Jizhi Zhang, Weiqin Yang, Shengjia Zhang, Sirui Chen, Yang Zhang, Xiaoyan Zhao, Wenjie Wang, <u><b>Chongming Gao*</b></u>, Fuli Feng, Xiangnan He, Jiawei Chen*</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://arxiv.org/pdf/2606.00540" target="_blank" rel="noopener noreferrer">PDF</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Trustworthiness</li>
+                                    <li>Fairness</li>
+                                    <li>Privacy</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-03-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">iNew Medicine 2026</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-03-title"><a href="https://arxiv.org/pdf/2604.08559" target="_blank" rel="noopener noreferrer">Medical Reasoning with Large Language Models: A Survey and MR-Bench</a></h4>
+                            <p class="pub-authors">Xiaohan Ren, Chenxiao Fan, Wenyin Ma, Hongliang He, <u><b>Chongming Gao*</b></u>, Xiaoyan Zhao*, Fuli Feng*</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://arxiv.org/pdf/2604.08559" target="_blank" rel="noopener noreferrer">PDF</a>
+                                    <a href="https://github.com/RXH04-USTC/Medical-Reasoning-Survey" target="_blank" rel="noopener noreferrer">Code</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Healthcare</li>
+                                    <li>Reasoning</li>
+                                    <li>Evaluation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-04-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">AI Open 2021</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-04-title"><a href="https://arxiv.org/pdf/2101.09459.pdf" target="_blank" rel="noopener noreferrer">Advances and Challenges in Conversational Recommender Systems: A Survey</a></h4>
+                            <p class="pub-authors"><u><b>Chongming Gao</b></u>, Wenqiang Lei, Xiangnan He, Maarten de Rijke, Tat-Seng Chua</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://arxiv.org/pdf/2101.09459.pdf" target="_blank" rel="noopener noreferrer">PDF</a>
+                                    <a href="https://cdn.chongminggao.top/files/pdf/Survey%20of%20CRS%20%2845minutes%20slide%29.pdf" target="_blank" rel="noopener noreferrer">Slides</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Conversational Recommendation</li>
+                                    <li>User Modeling</li>
+                                    <li>Evaluation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+
+        </section>
+
+        <section class="research" id="selected-research">
             <h2 class="section-title"><span>Selected Research</span></h2>
+            <p class="publication-legend">* Corresponding author <span aria-hidden="true">·</span> # Equal contribution</p>
 
             <h3 class="publication-year">2026</h3>
 
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a
-                                href="https://www.techrxiv.org/users/1027900/articles/1387604-integrating-large-language-models-with-reinforcement-learning-a-survey-of-llm-rl-synergistic-recommendation"
-                                target="_blank"><img src="./pdf.gif"><br>pdf</a>
-                        </td>
-                        <!-- <td class="left"><a href="https://arxiv.org/pdf/2408.06809" target="_blank"><img src="./files/pdf.gif"><br>pdf</a></td> -->
-                        <td class="pub_info"><span class="title">Integrating Large Language Models with Reinforcement Learning: A
-                                Survey of LLM-RL Synergistic Recommendation</span>
-                            <br>Mengyao Gao, <u><b>Chongming Gao*</b></u>, Jiakai Tang, Jingsen Zhang, Xinpeng Zhao, Bohao Wang,
-                            Jiawei Chen, Haoran He, Ling Pan, Xu Chen, Xin Xin, Qingpeng Cai, Peng Jiang, Kun Gai, Haoyan Liu, Fuli
-                            Feng, <br> Xiangnan He
-                            <br> Preprint 2026 &nbsp;&nbsp;
-                            <!-- <a href="https://github.com/cxfann/Flame" target="_blank">Code</a> &nbsp;&nbsp; -->
-                            <a href="https://zhuanlan.zhihu.com/p/2017951416166154687" target="_blank">知乎</a> &nbsp;&nbsp;
-                            <!-- <a href="https://github.com/Jiaju-Chen/DLCRec" target="_blank">Code</a> &nbsp;&nbsp; -->
-                            *Corresponding Author. <span class="pub_highlight">Survey</span>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="https://arxiv.org/pdf/2606.00540" target="_blank"><img src="./pdf.gif"><br>pdf</a>
-                        </td>
-                        <td class="pub_info"><span class="title">Trustworthy Recommendation in the Era of Large Language Models:
-                                Opportunities and Challenges</span>
-                            <br>Bohao Wang, Yu Cui, Zhenxiang Xu, Jujia Zhao, Chenxiao Fan, Jizhi Zhang, Weiqin Yang,
-                            Shengjia Zhang, Sirui Chen, Yang Zhang, Xiaoyan Zhao, Wenjie Wang, <u><b>Chongming Gao*</b></u>,
-                            Fuli Feng, Xiangnan He, Jiawei Chen*
-                            <br> Preprint 2026 &nbsp;&nbsp;
-                            *Corresponding Author. <span class="pub_highlight">Survey</span>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="https://arxiv.org/pdf/2604.08559" target="_blank"><img src="./pdf.gif"><br>pdf</a>
-                        </td>
-                        <!-- <td class="left"><a href="https://arxiv.org/pdf/2408.06809" target="_blank"><img src="./files/pdf.gif"><br>pdf</a></td> -->
-                        <td class="pub_info"><span class="title">Medical Reasoning with Large Language Models: A Survey and MR-Bench</span>
-                            <br>Xiaohan Ren, Chenxiao Fan, Wenyin Ma, Hongliang He, <u><b>Chongming Gao*</b></u>, Xiaoyan Zhao*, Fuli Feng*
-                            <br> iNew Medicine 2026 &nbsp;&nbsp;
-                            <a href="https://github.com/RXH04-USTC/Medical-Reasoning-Survey" target="_blank">Code</a> &nbsp;&nbsp;
-                            <!-- <a href="https://zhuanlan.zhihu.com/p/2017951416166154687" target="_blank">知乎</a> &nbsp;&nbsp; -->
-                            <!-- <a href="https://github.com/Jiaju-Chen/DLCRec" target="_blank">Code</a> &nbsp;&nbsp; -->
-                            *Corresponding Author. <span class="pub_highlight">Survey</span>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-           
-
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="https://arxiv.org/pdf/2605.04559" target="_blank"><img src="./pdf.gif"><br>pdf</a>
-                        </td>
-                        <!-- <td class="left"><a href="https://arxiv.org/pdf/2408.06809" target="_blank"><img src="./files/pdf.gif"><br>pdf</a></td> -->
-                        <td class="pub_info"><span class="title">Beyond Static Best-of-N: Bayesian List-wise Alignment for
-                                LLM-based Recommendation</span>
-                            <br>Ruijun Chen, <u><b>Chongming Gao*</b></u>, Jiawei Chen, Weiqin Yang, Xiangnan He*
-                            <br> SIGIR 2026 &nbsp;&nbsp;
-                            <a href="https://github.com/RegionCh/BLADE" target="_blank">Code</a> &nbsp;&nbsp;
-                            <!-- <a href="https://zhuanlan.zhihu.com/p/2017951416166154687" target="_blank">知乎</a> &nbsp;&nbsp; -->
-                            <!-- <a href="https://github.com/Jiaju-Chen/DLCRec" target="_blank">Code</a> &nbsp;&nbsp; -->
-                            *Corresponding Author.
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="https://arxiv.org/pdf/2601.12034" target="_blank"><img src="./pdf.gif"><br>pdf</a>
-                        </td>
-                        <!-- <td class="left"><a href="https://arxiv.org/pdf/2408.06809" target="_blank"><img src="./files/pdf.gif"><br>pdf</a></td> -->
-                        <td class="pub_info"><span class="title">Don't Start Over: A Cost-Effective Framework for Migrating
-                                Personalized Prompts Between LLMs</span>
-                            <br>Ziyi Zhao, <u><b>Chongming Gao*</b></u>, Yang Zhang, Haoyan Liu*, Weinan Gan, Huifeng Guo, Yong Liu,
-                            Fuli Feng
-                            <br> AAAI 2026 Oral &nbsp;&nbsp;
-                            <a href="https://github.com/Kimagure7/Dont-Start-Over" target="_blank">Code</a> &nbsp;&nbsp;
-                            <a href="https://zhuanlan.zhihu.com/p/2017944815547982240" target="_blank">知乎</a> &nbsp;&nbsp;
-                            <!-- <a href="https://github.com/Jiaju-Chen/DLCRec" target="_blank">Code</a> &nbsp;&nbsp; -->
-                            *Corresponding Author.
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            
-
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="https://arxiv.org/pdf/2602.11719" target="_blank"><img src="./pdf.gif"><br>pdf</a>
-                        </td>
-                        <!-- <td class="left"><a href="https://arxiv.org/pdf/2408.06809" target="_blank"><img src="./files/pdf.gif"><br>pdf</a></td> -->
-                        <td class="pub_info"><span class="title">Uncertainty-aware Generative Recommendation</span>
-                            <br>Chenxiao Fan, <u><b>Chongming Gao*</b></u>, Yaxin Gong, Haoyan Liu, Fuli Feng, Xiangnan He
-                            <br> KDD 2026 &nbsp;&nbsp;
-                            <a href="https://github.com/cxfann/UGR" target="_blank">Code</a> &nbsp;&nbsp;
-                            <!-- <a href="https://zhuanlan.zhihu.com/p/2017951416166154687" target="_blank">知乎</a> &nbsp;&nbsp; -->
-                            <!-- <a href="https://github.com/Jiaju-Chen/DLCRec" target="_blank">Code</a> &nbsp;&nbsp; -->
-                            *Corresponding Author.
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="https://arxiv.org/pdf/2603.10673" target="_blank"><img src="./pdf.gif"><br>pdf</a>
-                        </td>
-                        <!-- <td class="left"><a href="https://arxiv.org/pdf/2408.06809" target="_blank"><img src="./files/pdf.gif"><br>pdf</a></td> -->
-                        <td class="pub_info"><span class="title">Breaking User-Centric Agency: A Tri-Party Framework for Agent-Based Recommendation</span>
-                            <br>Yaxin Gong, <u><b>Chongming Gao*</b></u>, Chenxiao Fan, Wenjie Wang, Fuli Feng, Xiangnan He
-                            <br> Preprint 2026 &nbsp;&nbsp;
-                            <a href="https://github.com/Marfekey/TriRec" target="_blank">Code</a> &nbsp;&nbsp;
-                            <!-- <a href="https://zhuanlan.zhihu.com/p/2017951416166154687" target="_blank">知乎</a> &nbsp;&nbsp; -->
-                            <!-- <a href="https://github.com/Jiaju-Chen/DLCRec" target="_blank">Code</a> &nbsp;&nbsp; -->
-                            *Corresponding Author.
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="https://arxiv.org/pdf/2510.22888" target="_blank"><img src="./pdf.gif"><br>pdf</a>
-                        </td>
-                        <!-- <td class="left"><a href="https://arxiv.org/pdf/2408.06809" target="_blank"><img src="./files/pdf.gif"><br>pdf</a></td> -->
-                        <td class="pub_info"><span class="title">MGFRec: Towards Reinforced Reasoning Recommendation with Multiple Groundings and Feedback</span>
-                            <br>Shihao Cai, <u><b>Chongming Gao*</b></u>, Haoyan Liu, Wentao Shi, Jianshan Sun, Ruiming Tang, Fuli Feng
-                            <br> KDD 2026 &nbsp;&nbsp;
-                            <!-- <a href="https://github.com/cxfann/Flame" target="_blank">Code</a> &nbsp;&nbsp; -->
-                            <!-- <a href="https://zhuanlan.zhihu.com/p/29501150450" target="_blank">知乎</a> &nbsp;&nbsp; -->
-                            <!-- <a href="https://github.com/Jiaju-Chen/DLCRec" target="_blank">Code</a> &nbsp;&nbsp; -->
-                            *Corresponding Author.
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="https://arxiv.org/pdf/2508.05129" target="_blank"><img src="./pdf.gif"><br>pdf</a>
-                        </td>
-                        <!-- <td class="left"><a href="https://arxiv.org/pdf/2408.06809" target="_blank"><img src="./files/pdf.gif"><br>pdf</a></td> -->
-                        <td class="pub_info"><span class="title">Navigating Through Paper Flood: Advancing LLM-based Paper
-                                Evaluation through Domain-Aware Retrieval and Latent Reasoning</span>
-                            <br>Wuqiang Zheng, Yiyan Xu, Xinyu Lin, <u><b>Chongming Gao</b></u>, Wenjie Wang, Fuli Feng
-                            <br> AAAI 2026 Oral &nbsp;&nbsp;
-                            <!-- <a href="https://github.com/cxfann/Flame" target="_blank">Code</a> &nbsp;&nbsp; -->
-                            <!-- <a href="https://zhuanlan.zhihu.com/p/29501150450" target="_blank">知乎</a> &nbsp;&nbsp; -->
-                            <!-- <a href="https://github.com/Jiaju-Chen/DLCRec" target="_blank">Code</a> &nbsp;&nbsp; -->
-                            <!-- *Corresponding Author. -->
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="https://arxiv.org/pdf/2501.07212" target="_blank"><img src="./pdf.gif"><br>pdf</a>
-                        </td>
-                        <!-- <td class="left"><a href="https://arxiv.org/pdf/2408.06809" target="_blank"><img src="./files/pdf.gif"><br>pdf</a></td> -->
-                        <td class="pub_info"><span class="title">Future-Conditioned Recommendations with Multi-Objective Controllable Decision Transformer</span>
-                            <br> <u><b>Chongming Gao</b></u>, Kexin Huang, Ziang Fei, Jiaju Chen, Jiawei Chen, Jianshan Sun, Shuchang Liu, Qingpeng Cai, Peng Jiang
-                            <br> Preprint 2026 &nbsp;&nbsp;
-                            <!-- <a href="https://github.com/Jiaju-Chen/DLCRec" target="_blank">Code</a> &nbsp;&nbsp; -->
-                            <!-- #Equal contribution -->
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+            <ul class="publication-list">
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-05-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">EMNLP 2026</span>
+                            <span class="publication-track">Main</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-05-title"><a href="https://arxiv.org/pdf/2609.07247" target="_blank" rel="noopener noreferrer">Elastic Horizon: Discovering the Effective Interaction Frontier in Agentic Reinforcement Learning</a></h4>
+                            <p class="pub-authors">Gangyi Zhang#, Junjie Meng#, Letian Zhang, Wei Wu, Yang Zheng, Dong Wang*, Yang Liu, Guanjun Jiang, <u><b>Chongming Gao*</b></u></p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://arxiv.org/pdf/2609.07247" target="_blank" rel="noopener noreferrer">PDF</a>
+                                    <a href="https://github.com/junjie-meng/ElasticHorizon" target="_blank" rel="noopener noreferrer">Code</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Agent</li>
+                                    <li>Reinforcement Learning</li>
+                                    <li>Efficiency</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-06-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">RecSys 2026</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-06-title"><a href="https://arxiv.org/pdf/2607.15730" target="_blank" rel="noopener noreferrer">RECAP: Feedback-Driven Streaming Semantic User Profiles for Short-Video Recommendation</a></h4>
+                            <p class="pub-authors">Ziyi Zhao, Xiaoyou Zhou, Xiao Lv*, Yangyang Li, Chubo He, Zhao Liu, Jiayao Shen, Yuqi Liu, He Li, Chengyi Zhang, Jian Liang, Ming Li, <u><b>Chongming Gao*</b></u>, Fuli Feng, Ruiming Tang*, Han Li</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://arxiv.org/pdf/2607.15730" target="_blank" rel="noopener noreferrer">PDF</a>
+                                    <a href="https://doi.org/10.1145/3773078.3831930" target="_blank" rel="noopener noreferrer">DOI</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Personalization</li>
+                                    <li>User Modeling</li>
+                                    <li>Reinforcement Learning</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-07-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">SIGIR 2026</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-07-title"><a href="https://arxiv.org/pdf/2605.04559" target="_blank" rel="noopener noreferrer">Beyond Static Best-of-N: Bayesian List-wise Alignment for LLM-based Recommendation</a></h4>
+                            <p class="pub-authors">Ruijun Chen, <u><b>Chongming Gao*</b></u>, Jiawei Chen, Weiqin Yang, Xiangnan He*</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://arxiv.org/pdf/2605.04559" target="_blank" rel="noopener noreferrer">PDF</a>
+                                    <a href="https://github.com/RegionCh/BLADE" target="_blank" rel="noopener noreferrer">Code</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Alignment</li>
+                                    <li>Generative Recommendation</li>
+                                    <li>Fairness</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-08-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">AAAI 2026</span>
+                            <span class="publication-track">Oral</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-08-title"><a href="https://arxiv.org/pdf/2601.12034" target="_blank" rel="noopener noreferrer">Don&#x27;t Start Over: A Cost-Effective Framework for Migrating Personalized Prompts Between LLMs</a></h4>
+                            <p class="pub-authors">Ziyi Zhao, <u><b>Chongming Gao*</b></u>, Yang Zhang, Haoyan Liu*, Weinan Gan, Huifeng Guo, Yong Liu, Fuli Feng</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://arxiv.org/pdf/2601.12034" target="_blank" rel="noopener noreferrer">PDF</a>
+                                    <a href="https://github.com/Kimagure7/Dont-Start-Over" target="_blank" rel="noopener noreferrer">Code</a>
+                                    <a href="https://zhuanlan.zhihu.com/p/2017944815547982240" target="_blank" rel="noopener noreferrer">知乎</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Personalization</li>
+                                    <li>Prompt Transfer</li>
+                                    <li>Efficiency</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-09-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">KDD 2026</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-09-title"><a href="https://arxiv.org/pdf/2602.11719" target="_blank" rel="noopener noreferrer">Uncertainty-aware Generative Recommendation</a></h4>
+                            <p class="pub-authors">Chenxiao Fan, <u><b>Chongming Gao*</b></u>, Yaxin Gong, Haoyan Liu, Fuli Feng, Xiangnan He</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://arxiv.org/pdf/2602.11719" target="_blank" rel="noopener noreferrer">PDF</a>
+                                    <a href="https://github.com/cxfann/UGR" target="_blank" rel="noopener noreferrer">Code</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Generative Recommendation</li>
+                                    <li>Uncertainty</li>
+                                    <li>Alignment</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-10-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">Preprint 2026</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-10-title"><a href="https://arxiv.org/pdf/2603.10673" target="_blank" rel="noopener noreferrer">Breaking User-Centric Agency: A Tri-Party Framework for Agent-Based Recommendation</a></h4>
+                            <p class="pub-authors">Yaxin Gong, <u><b>Chongming Gao*</b></u>, Chenxiao Fan, Haoyan Liu, Wenjie Wang, Jianshan Sun, Yangyang Li, Fuli Feng, Xiangnan He</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://arxiv.org/pdf/2603.10673" target="_blank" rel="noopener noreferrer">PDF</a>
+                                    <a href="https://github.com/Marfekey/TriRec" target="_blank" rel="noopener noreferrer">Code</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Agent</li>
+                                    <li>Multi-stakeholder Recommendation</li>
+                                    <li>Fairness</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-11-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">KDD 2026</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-11-title"><a href="https://arxiv.org/pdf/2510.22888" target="_blank" rel="noopener noreferrer">MGFRec: Towards Reinforced Reasoning Recommendation with Multiple Groundings and Feedback</a></h4>
+                            <p class="pub-authors">Shihao Cai, <u><b>Chongming Gao*</b></u>, Haoyan Liu, Wentao Shi, Jianshan Sun, Ruiming Tang, Fuli Feng</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://arxiv.org/pdf/2510.22888" target="_blank" rel="noopener noreferrer">PDF</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Reasoning</li>
+                                    <li>Agent</li>
+                                    <li>Reinforcement Learning</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-12-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">AAAI 2026</span>
+                            <span class="publication-track">Oral</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-12-title"><a href="https://arxiv.org/pdf/2508.05129" target="_blank" rel="noopener noreferrer">Navigating Through Paper Flood: Advancing LLM-based Paper Evaluation through Domain-Aware Retrieval and Latent Reasoning</a></h4>
+                            <p class="pub-authors">Wuqiang Zheng, Yiyan Xu, Xinyu Lin, <u><b>Chongming Gao</b></u>, Wenjie Wang, Fuli Feng</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://arxiv.org/pdf/2508.05129" target="_blank" rel="noopener noreferrer">PDF</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Evaluation</li>
+                                    <li>Reasoning</li>
+                                    <li>Retrieval Augmentation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-13-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">Preprint 2026</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-13-title"><a href="https://arxiv.org/pdf/2501.07212" target="_blank" rel="noopener noreferrer">Future-Conditioned Recommendations with Multi-Objective Controllable Decision Transformer</a></h4>
+                            <p class="pub-authors"><u><b>Chongming Gao</b></u>, Kexin Huang, Ziang Fei, Jiaju Chen, Jiawei Chen, Jianshan Sun, Shuchang Liu, Qingpeng Cai, Peng Jiang</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://arxiv.org/pdf/2501.07212" target="_blank" rel="noopener noreferrer">PDF</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Controllable Recommendation</li>
+                                    <li>Long-term Recommendation</li>
+                                    <li>Reinforcement Learning</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
 
             <h3 class="publication-year">2025</h3>
 
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="https://arxiv.org/pdf/2505.20218" target="_blank"><img src="./pdf.gif"><br>pdf</a>
-                        </td>
-                        <!-- <td class="left"><a href="https://arxiv.org/pdf/2408.06809" target="_blank"><img src="./files/pdf.gif"><br>pdf</a></td> -->
-                        <td class="pub_info"><span class="title">Fine-grained List-wise Alignment for Generative Medication
-                                Recommendation</span>
-                            <br>Chenxiao Fan, <u><b>Chongming Gao</b></u>*, Wentao Shi, Yaxin Gong, Zihao Zhao, Fuli Feng*
-                            <br> Neurips 2025 Spotlight &nbsp;&nbsp;
-                            <a href="https://github.com/cxfann/Flame" target="_blank">Code</a> &nbsp;&nbsp;
-                            <!-- <a href="https://zhuanlan.zhihu.com/p/29501150450" target="_blank">知乎</a> &nbsp;&nbsp; -->
-                            <!-- <a href="https://github.com/Jiaju-Chen/DLCRec" target="_blank">Code</a> &nbsp;&nbsp; -->
-                            *Corresponding Author.
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="https://arxiv.org/pdf/2412.09243" target="_blank"><img src="./pdf.gif"><br>pdf</a>
-                        </td>
-                        <!-- <td class="left"><a href="https://arxiv.org/pdf/2408.06809" target="_blank"><img src="./files/pdf.gif"><br>pdf</a></td> -->
-                        <td class="pub_info"><span class="title">SPRec: Self-Play to Debias LLM-based Recommendation</span>
-                            <br><u><b>Chongming Gao</b></u>#, Ruijun Chen#, Shuai Yuan, Kexin Huang, Yuanqing Yu, Xiangnan He*
-                            <br> WWW 2025 Oral &nbsp;&nbsp;
-                            <a href="https://github.com/RegionCh/SPRec" target="_blank">Code</a> &nbsp;&nbsp;
-                            <a href="https://zhuanlan.zhihu.com/p/29501150450" target="_blank">知乎</a> &nbsp;&nbsp;
-                            <!-- <a href="https://github.com/Jiaju-Chen/DLCRec" target="_blank">Code</a> &nbsp;&nbsp; -->
-                            #Equal contribution, *Corresponding Author.
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="https://arxiv.org/pdf/2503.07377" target="_blank"><img src="./pdf.gif"><br>pdf</a>
-                        </td>
-                        <!-- <td class="left"><a href="https://arxiv.org/pdf/2408.06809" target="_blank"><img src="./files/pdf.gif"><br>pdf</a></td> -->
-                        <td class="pub_info"><span class="title">Process-Supervised LLM Recommenders via Flow-guided Tuning</span>
-                            <br><u><b>Chongming Gao</b></u>#, Mengyao Gao#, Chenxiao Fan, Shuai Yuan, Wentao Shi, Xiangnan He*
-                            <br> SIGIR 2025 &nbsp;&nbsp;
-                            <a href="https://github.com/Mr-Peach0301/Flower" target="_blank">Code</a> &nbsp;&nbsp;
-                            <!-- <a href="https://zhuanlan.zhihu.com/p/29501150450" target="_blank">知乎</a> &nbsp;&nbsp; -->
-                            <!-- <a href="https://github.com/Jiaju-Chen/DLCRec" target="_blank">Code</a> &nbsp;&nbsp; -->
-                            #Equal contribution, *Corresponding Author.
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="https://arxiv.org/pdf/2410.20027" target="_blank"><img src="./pdf.gif"><br>pdf</a>
-                        </td>
-                        <!-- <td class="left"><a href="https://arxiv.org/pdf/2408.06809" target="_blank"><img src="./files/pdf.gif"><br>pdf</a></td> -->
-                        <td class="pub_info"><span class="title">Agentic Feedback Loop Modeling Improves Recommendation and User
-                                Simulation</span>
-                            <br> Shihao Cai, Jizhi Zhang, Keqin Bao, <u><b>Chongming Gao*</b></u>, Fuli Feng, Xiangnan He.
-                            <br> SIGIR 2025 &nbsp;&nbsp;
-                            <!-- <a href="https://github.com/Jiaju-Chen/DLCRec" target="_blank">Code</a> &nbsp;&nbsp; -->
-                            <!-- #Equal contribution -->
-                            *Corresponding Author.
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="https://arxiv.org/pdf/2404.12008" target="_blank"><img src="./pdf.gif"><br>pdf</a>
-                        </td>
-                        <td class="pub_info"><span class="title">How Do Recommendation Models Amplify Popularity Bias? An Analysis
-                                from the Spectral Perspective</span>
-                            <br>Siyi Lin, <u><b>Chongming Gao</b></u>, Jiawei Chen, Sheng Zhou, Binbin Hu, Yan Feng, Chun Chen, Can
-                            Wang
-                            <br> WSDM 2025 &nbsp;&nbsp;
+            <ul class="publication-list">
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-14-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">Neurips 2025</span>
+                            <span class="publication-track">Spotlight</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-14-title"><a href="https://arxiv.org/pdf/2505.20218" target="_blank" rel="noopener noreferrer">Fine-grained List-wise Alignment for Generative Medication Recommendation</a></h4>
+                            <p class="pub-authors">Chenxiao Fan, <u><b>Chongming Gao</b></u>*, Wentao Shi, Yaxin Gong, Zihao Zhao, Fuli Feng*</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://arxiv.org/pdf/2505.20218" target="_blank" rel="noopener noreferrer">PDF</a>
+                                    <a href="https://github.com/cxfann/Flame" target="_blank" rel="noopener noreferrer">Code</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Healthcare</li>
+                                    <li>Alignment</li>
+                                    <li>Generative Recommendation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-15-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">WWW 2025</span>
+                            <span class="publication-track">Oral</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-15-title"><a href="https://arxiv.org/pdf/2412.09243" target="_blank" rel="noopener noreferrer">SPRec: Self-Play to Debias LLM-based Recommendation</a></h4>
+                            <p class="pub-authors"><u><b>Chongming Gao</b></u>#, Ruijun Chen#, Shuai Yuan, Kexin Huang, Yuanqing Yu, Xiangnan He*</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://arxiv.org/pdf/2412.09243" target="_blank" rel="noopener noreferrer">PDF</a>
+                                    <a href="https://github.com/RegionCh/SPRec" target="_blank" rel="noopener noreferrer">Code</a>
+                                    <a href="https://zhuanlan.zhihu.com/p/29501150450" target="_blank" rel="noopener noreferrer">知乎</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Debiasing</li>
+                                    <li>Alignment</li>
+                                    <li>Self-Play</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-16-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">SIGIR 2025</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-16-title"><a href="https://arxiv.org/pdf/2503.07377" target="_blank" rel="noopener noreferrer">Process-Supervised LLM Recommenders via Flow-guided Tuning</a></h4>
+                            <p class="pub-authors"><u><b>Chongming Gao</b></u>#, Mengyao Gao#, Chenxiao Fan, Shuai Yuan, Wentao Shi, Xiangnan He*</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://arxiv.org/pdf/2503.07377" target="_blank" rel="noopener noreferrer">PDF</a>
+                                    <a href="https://github.com/Mr-Peach0301/Flower" target="_blank" rel="noopener noreferrer">Code</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Process Supervision</li>
+                                    <li>Debiasing</li>
+                                    <li>Diversity</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-17-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">SIGIR 2025</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-17-title"><a href="https://arxiv.org/pdf/2410.20027" target="_blank" rel="noopener noreferrer">Agentic Feedback Loop Modeling Improves Recommendation and User Simulation</a></h4>
+                            <p class="pub-authors">Shihao Cai, Jizhi Zhang, Keqin Bao, <u><b>Chongming Gao*</b></u>, Qifan Wang, Fuli Feng, Xiangnan He*</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://arxiv.org/pdf/2410.20027" target="_blank" rel="noopener noreferrer">PDF</a>
+                                    <a href="https://github.com/Lanyu0303/AFL" target="_blank" rel="noopener noreferrer">Code</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Agent</li>
+                                    <li>User Simulation</li>
+                                    <li>User Modeling</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-18-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">WSDM 2025</span>
                             <span class="pub_highlight">Best Paper Award</span>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="https://aclanthology.org/2025.acl-long.944.pdf" target="_blank"><img src="./pdf.gif"><br>pdf</a>
-                        </td>
-                        <!-- <td class="left"><a href="https://arxiv.org/pdf/2408.06809" target="_blank"><img src="./files/pdf.gif"><br>pdf</a></td> -->
-                        <td class="pub_info"><span class="title">Tunable LLM-based Proactive Recommendation Agent</span>
-                            <br> Mingze Wang, <u><b>Chongming Gao*</b></u>, Wenjie Wang, Yangyang Li, Fuli Feng
-                            <br> ACL 2025 Main&nbsp;&nbsp;
-                            <!-- <a href="https://github.com/Jiaju-Chen/DLCRec" target="_blank">Code</a> &nbsp;&nbsp; -->
-                            <!-- #Equal contribution -->
-                            *Corresponding Author.
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="https://arxiv.org/pdf/2506.00441" target="_blank"><img
-                                    src="./pdf.gif"><br>pdf</a>
-                        </td>
-                        <!-- <td class="left"><a href="https://arxiv.org/pdf/2408.06809" target="_blank"><img src="./files/pdf.gif"><br>pdf</a></td> -->
-                        <td class="pub_info"><span class="title">K-order Ranking Preference Optimization for Large Language Models</span>
-                            <br> Shihao Cai, <u><b>Chongming Gao*</b></u>, Yang Zhang, Wentao Shi, Jizhi Zhang, Keqin Bao, Qifan Wang, Fuli Feng
-                            <br> ACL 2025 Findings &nbsp;&nbsp;
-                            <!-- <a href="https://github.com/Jiaju-Chen/DLCRec" target="_blank">Code</a> &nbsp;&nbsp; -->
-                            <!-- #Equal contribution -->
-                            *Corresponding Author.
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="https://aclanthology.org/2025.acl-industry.96.pdf" target="_blank"><img
-                                    src="./pdf.gif"><br>pdf</a>
-                        </td>
-                        <!-- <td class="left"><a href="https://arxiv.org/pdf/2408.06809" target="_blank"><img src="./files/pdf.gif"><br>pdf</a></td> -->
-                        <td class="pub_info"><span class="title">Consistency-Aware Online Multi-Objective Alignment for Related
-                                Search Query Generation</span>
-                            <br> Shuxian Bi, <u><b>Chongming Gao*</b></u>, Wenjie Wang, Yueqi Mou, Chenxu Wang, Tang Biao, Peng Yan,
-                            Fuli Feng
-                            <br> ACL 2025 Industry &nbsp;&nbsp;
-                            <!-- <a href="https://github.com/Jiaju-Chen/DLCRec" target="_blank">Code</a> &nbsp;&nbsp; -->
-                            <!-- #Equal contribution -->
-                            *Corresponding Author.
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="https://openreview.net/pdf?id=djAtMRB1Y4" target="_blank"><img src="./pdf.gif"><br>pdf</a>
-                        </td>
-                        <!-- <td class="left"><a href="https://arxiv.org/pdf/2408.06809" target="_blank"><img src="./files/pdf.gif"><br>pdf</a></td> -->
-                        <td class="pub_info"><span class="title">Learning Bayesian Nash Equilibrium in Auction Games via Approximate Best Response</span>
-                            <br> Kexin Huang, Ziqian Chen, Xue Wang, <u><b>Chongming Gao*</b></u>, Jinyang Gao, Bolin Ding, Xiang Wang
-                            <br> ICML 2025 &nbsp;&nbsp;
-                            <!-- <a href="https://github.com/Jiaju-Chen/DLCRec" target="_blank">Code</a> &nbsp;&nbsp; -->
-                            <!-- #Equal contribution -->
-                            *Corresponding Author.
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="#" target="_blank"><img src="./pdf.gif"><br>pdf</a>
-                        </td>
-                        <!-- <td class="left"><a href="https://arxiv.org/pdf/2408.06809" target="_blank"><img src="./files/pdf.gif"><br>pdf</a></td> -->
-                        <td class="pub_info"><span class="title">Leveraging Unpaired Feedback for Long-Term LLM-based Recommendation Tuning</span>
-                            <br> Jizhi Zhang, <u><b>Chongming Gao*</b></u>, Wentao Shi, Xin Chen, Jingang Wang, Xunliang Cai, Fuli Feng
-                            <br> EMNLP 2025 Findings &nbsp;&nbsp;
-                            <!-- <a href="https://github.com/Jiaju-Chen/DLCRec" target="_blank">Code</a> &nbsp;&nbsp; -->
-                            <!-- #Equal contribution -->
-                            *Corresponding Author.
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="#" target="_blank"><img src="./pdf.gif"><br>pdf</a>
-                        </td>
-                        <!-- <td class="left"><a href="https://arxiv.org/pdf/2408.06809" target="_blank"><img src="./files/pdf.gif"><br>pdf</a></td> -->
-                        <td class="pub_info"><span class="title">An LLM-based Behavior Modeling Framework for Malicious User Detection</span>
-                            <br> Meng Jiang, Wenjie Wang, <u><b>Chongming Gao</b></u>, Shaofeng Hu, Kaishen Ou, Hui Lin, Fuli Feng
-                            <br> CIKM 2025 &nbsp;&nbsp;
-                            <!-- <a href="https://github.com/Jiaju-Chen/DLCRec" target="_blank">Code</a> &nbsp;&nbsp; -->
-                            <!-- #Equal contribution -->
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="https://arxiv.org/pdf/2408.12470" target="_blank"><img
-                                    src="./pdf.gif"><br>pdf</a></td>
-                        <!-- <td class="left"><a href="https://arxiv.org/pdf/2408.06809" target="_blank"><img src="./files/pdf.gif"><br>pdf</a></td> -->
-                        <td class="pub_info"><span class="title">DLCRec: A Novel Approach for Managing Diversity in LLM-Based Recommender Systems</span>
-                            <br>Jiaju Chen, <u><b>Chongming Gao*</b></u>, Shuai Yuan, Shuchang Liu, Qingpeng Cai, Peng Jiang
-                            <br> WSDM 2025 &nbsp;&nbsp; 
-                            <a href="https://github.com/Jiaju-Chen/DLCRec"
-                                target="_blank">Code</a> &nbsp;&nbsp;
-                            *Corresponding Author
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="https://arxiv.org/pdf/2409.04827" target="_blank"><img src="./pdf.gif"><br>pdf</a>
-                        </td>
-                        <!-- <td class="left"><a href="https://arxiv.org/pdf/2408.06809" target="_blank"><img src="./files/pdf.gif"><br>pdf</a></td> -->
-                        <td class="pub_info"><span class="title">Leveraging LLMs for Influence Path Planning in Proactive
-                                Recommendation</span>
-                            <br> Mingze Wang, Shuxian Bi, Wenjie Wang*, <u><b>Chongming Gao*</b></u>, Yangyang Li, Fuli Feng
-                            <br> WWW 2025 (Short Paper) &nbsp;&nbsp;
-                            <!-- <a href="https://github.com/Jiaju-Chen/DLCRec" target="_blank">Code</a> &nbsp;&nbsp; -->
-                            <!-- #Equal contribution -->
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="https://arxiv.org/pdf/2306.04487" target="_blank"><img src="./pdf.gif"><br>pdf</a>
-                        </td>
-                        <td class="pub_info"><span class="title">Vague Preference Policy Learning for Conversational Recommendation</span>
-                            <br>Gangyi Zhang, <u><b>Chongming Gao*</b></u>, Wenqiang Lei, Xiaojie Guo, Shijun Li, Hongshen Chen, Zhuozhi Ding, Sulong Xu, Lingfei Wu
-                            <br> TOIS 2025 &nbsp;&nbsp; *Corresponding Author
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-18-title"><a href="https://arxiv.org/pdf/2404.12008" target="_blank" rel="noopener noreferrer">How Do Recommendation Models Amplify Popularity Bias? An Analysis from the Spectral Perspective</a></h4>
+                            <p class="pub-authors">Siyi Lin, <u><b>Chongming Gao</b></u>, Jiawei Chen*, Sheng Zhou, Binbin Hu, Yan Feng, Chun Chen, Can Wang</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://arxiv.org/pdf/2404.12008" target="_blank" rel="noopener noreferrer">PDF</a>
+                                    <a href="https://github.com/LIN452/ReSN/" target="_blank" rel="noopener noreferrer">Code</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Debiasing</li>
+                                    <li>Spectral Analysis</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-19-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">ACL 2025</span>
+                            <span class="publication-track">Main</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-19-title"><a href="https://aclanthology.org/2025.acl-long.944.pdf" target="_blank" rel="noopener noreferrer">Tunable LLM-based Proactive Recommendation Agent</a></h4>
+                            <p class="pub-authors">Mingze Wang, <u><b>Chongming Gao*</b></u>, Wenjie Wang*, Yangyang Li, Fuli Feng</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://aclanthology.org/2025.acl-long.944.pdf" target="_blank" rel="noopener noreferrer">PDF</a>
+                                    <a href="https://github.com/gnaWeinrE/T-PRA" target="_blank" rel="noopener noreferrer">Code</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Agent</li>
+                                    <li>Proactive Recommendation</li>
+                                    <li>Long-term Recommendation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-20-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">ACL 2025</span>
+                            <span class="publication-track">Findings</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-20-title"><a href="https://arxiv.org/pdf/2506.00441" target="_blank" rel="noopener noreferrer">K-order Ranking Preference Optimization for Large Language Models</a></h4>
+                            <p class="pub-authors">Shihao Cai, <u><b>Chongming Gao*</b></u>, Yang Zhang, Wentao Shi, Jizhi Zhang, Keqin Bao, Qifan Wang, Fuli Feng*</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://arxiv.org/pdf/2506.00441" target="_blank" rel="noopener noreferrer">PDF</a>
+                                    <a href="https://github.com/Lanyu0303/KPO" target="_blank" rel="noopener noreferrer">Code</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Alignment</li>
+                                    <li>Learning to Rank</li>
+                                    <li>Robustness</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-21-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">ACL 2025</span>
+                            <span class="publication-track">Industry</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-21-title"><a href="https://aclanthology.org/2025.acl-industry.96.pdf" target="_blank" rel="noopener noreferrer">Consistency-Aware Online Multi-Objective Alignment for Related Search Query Generation</a></h4>
+                            <p class="pub-authors">Shuxian Bi, <u><b>Chongming Gao*</b></u>, Wenjie Wang*, Yueqi Mou, Chenxu Wang, Tang Biao, Peng Yan, Fuli Feng</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://aclanthology.org/2025.acl-industry.96.pdf" target="_blank" rel="noopener noreferrer">PDF</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Alignment</li>
+                                    <li>Multi-objective Optimization</li>
+                                    <li>Query Generation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-22-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">ICML 2025</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-22-title"><a href="https://openreview.net/pdf?id=djAtMRB1Y4" target="_blank" rel="noopener noreferrer">Learning Bayesian Nash Equilibrium in Auction Games via Approximate Best Response</a></h4>
+                            <p class="pub-authors">Kexin Huang, Ziqian Chen, Xue Wang, <u><b>Chongming Gao*</b></u>, Jinyang Gao, Bolin Ding, Xiang Wang*</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://openreview.net/pdf?id=djAtMRB1Y4" target="_blank" rel="noopener noreferrer">PDF</a>
+                                    <a href="https://github.com/Hesse73/Approx-BR-Grad" target="_blank" rel="noopener noreferrer">Code</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Game Theory</li>
+                                    <li>Equilibrium Learning</li>
+                                    <li>Auctions</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-23-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">EMNLP 2025</span>
+                            <span class="publication-track">Findings</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-23-title"><a href="https://aclanthology.org/2025.findings-emnlp.1332.pdf" target="_blank" rel="noopener noreferrer">Leveraging Unpaired Feedback for Long-Term LLM-based Recommendation Tuning</a></h4>
+                            <p class="pub-authors">Jizhi Zhang, <u><b>Chongming Gao*</b></u>, Wentao Shi, Xin Chen, Jingang Wang, Xunliang Cai, Fuli Feng*</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://aclanthology.org/2025.findings-emnlp.1332.pdf" target="_blank" rel="noopener noreferrer">PDF</a>
+                                    <a href="https://github.com/jizhi-zhang/ULRec" target="_blank" rel="noopener noreferrer">Code</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Long-term Recommendation</li>
+                                    <li>Alignment</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-24-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">CIKM 2025</span>
+                            <span class="publication-track">Applied Research</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-24-title"><a href="https://doi.org/10.1145/3746252.3761520" target="_blank" rel="noopener noreferrer">An LLM-based Behavior Modeling Framework for Malicious User Detection</a></h4>
+                            <p class="pub-authors">Meng Jiang, Wenjie Wang, <u><b>Chongming Gao</b></u>, Shaofeng Hu, Kaishen Ou, Hui Lin, Fuli Feng</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://doi.org/10.1145/3746252.3761520" target="_blank" rel="noopener noreferrer">DOI</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>User Modeling</li>
+                                    <li>Reasoning</li>
+                                    <li>Malicious User Detection</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-25-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">WSDM 2025</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-25-title"><a href="https://arxiv.org/pdf/2408.12470" target="_blank" rel="noopener noreferrer">DLCRec: A Novel Approach for Managing Diversity in LLM-Based Recommender Systems</a></h4>
+                            <p class="pub-authors">Jiaju Chen, <u><b>Chongming Gao*</b></u>, Shuai Yuan, Shuchang Liu, Qingpeng Cai, Peng Jiang</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://arxiv.org/pdf/2408.12470" target="_blank" rel="noopener noreferrer">PDF</a>
+                                    <a href="https://github.com/Jiaju-Chen/DLCRec" target="_blank" rel="noopener noreferrer">Code</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Controllable Recommendation</li>
+                                    <li>Diversity</li>
+                                    <li>Robustness</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-26-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">WWW 2025</span>
+                            <span class="publication-track">Short Paper</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-26-title"><a href="https://arxiv.org/pdf/2409.04827" target="_blank" rel="noopener noreferrer">Leveraging LLMs for Influence Path Planning in Proactive Recommendation</a></h4>
+                            <p class="pub-authors">Mingze Wang, Shuxian Bi, Wenjie Wang*, <u><b>Chongming Gao*</b></u>, Yangyang Li, Fuli Feng</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://arxiv.org/pdf/2409.04827" target="_blank" rel="noopener noreferrer">PDF</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Proactive Recommendation</li>
+                                    <li>Planning</li>
+                                    <li>User Simulation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-27-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">TOIS 2025</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-27-title"><a href="https://arxiv.org/pdf/2306.04487" target="_blank" rel="noopener noreferrer">Vague Preference Policy Learning for Conversational Recommendation</a></h4>
+                            <p class="pub-authors">Gangyi Zhang, <u><b>Chongming Gao*</b></u>, Wenqiang Lei, Xiaojie Guo, Shijun Li, Hongshen Chen, Zhuozhi Ding, Sulong Xu, Lingfei Wu</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://arxiv.org/pdf/2306.04487" target="_blank" rel="noopener noreferrer">PDF</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Conversational Recommendation</li>
+                                    <li>User Modeling</li>
+                                    <li>Reinforcement Learning</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
 
             <h3 class="publication-year">2024</h3>
 
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="https://arxiv.org/pdf/2204.01266.pdf" target="_blank"><img
-                                    src="./pdf.gif"><br>pdf</a></td>
-                        <td class="pub_info"><span class="title">CIRS: Bursting Filter Bubbles by Counterfactual Interactive
-                                Recommender System</span>
-                            <br><u><b>Chongming Gao</b></u>, Wenqiang Lei, Jiawei Chen, Shiqi Wang, Xiangnan He, Shijun Li, Biao Li,
-                            Yuan Zhang, Peng Jiang
-                            <br> TOIS 2024 &nbsp;&nbsp;
-                            <a href="https://cdn.chongminggao.top/files/pdf/CIRS-slides.pdf" target="_blank">Slides</a> &nbsp;&nbsp;
-                            <a href="https://github.com/chongminggao/CIRS-codes" target="_blank">Code</a> &nbsp;&nbsp;
-                            <a href="https://zhuanlan.zhihu.com/p/530441122" target="_blank">知乎</a> &nbsp;&nbsp;
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="https://dl.acm.org/doi/pdf/10.1145/3626772.3657868" target="_blank"><img
-                                    src="./pdf.gif"><br>pdf</a></td>
-                        <td class="pub_info"><span class="title">EasyRL4Rec: An Easy-to-use Library for Reinforcement Learning Based
-                                Recommender Systems</span>
-                            <br>Yuanqing Yu, <u><b>Chongming Gao*</b></u>, Jiawei Chen, Heng Tang, Yuefeng Sun, Qian Chen, Weizhi Ma,
-                            Min Zhang
-                            <br> SIGIR 2024 &nbsp;&nbsp;
-                            <a href="https://github.com/chongminggao/EasyRL4Rec" target="_blank">Code</a> &nbsp;&nbsp;
-                            <a href="https://zhuanlan.zhihu.com/p/6135006392" target="_blank">知乎</a> &nbsp;&nbsp;
-                            *Corresponding Author
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="https://dl.acm.org/doi/pdf/10.1145/3627673.3679792" target="_blank"><img
-                                    src="./pdf.gif"><br>pdf</a></td>
-                        <!-- <td class="left"><a href="https://arxiv.org/pdf/2408.06809" target="_blank"><img src="./files/pdf.gif"><br>pdf</a></td> -->
-                        <td class="pub_info"><span class="title">Reformulating Conversational Recommender Systems as Tri-Phase
-                                Offline Policy Learning</span>
-                            <br>Gangyi Zhang, <u><b>Chongming Gao*</b></u>, Hang Pan, Runzhe Teng, Ruizhe Li
-                            <br> CIKM 2024 &nbsp;&nbsp;
-                             *Corresponding Author
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="https://arxiv.org/pdf/2406.13443" target="_blank"><img src="./pdf.gif"><br>pdf</a>
-                        </td>
-                        <!-- <td class="left"><a href="https://arxiv.org/pdf/2408.06809" target="_blank"><img src="./files/pdf.gif"><br>pdf</a></td> -->
-                        <td class="pub_info"><span class="title">Dual-Phase Accelerated Prompt Optimization</span>
-                            <br>Muchen Yang, Moxin Li, Yongle Li, Zijun Chen, <u><b>Chongming Gao*</b></u>, Junqi Zhang, Yangyang
-                            Li, Fuli Feng
-                            <br> EMNLP 2024 Findings &nbsp;&nbsp;
-                            *Corresponding Author
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="https://arxiv.org/pdf/2403.00843" target="_blank"><img src="./pdf.gif"><br>pdf</a>
-                        </td>
-                        <td class="pub_info"><span class="title">Large Language Models are Learnable Planners for Long-Term
-                                Recommendation</span>
-                            <br>Wentao Shi, Xiangnan He, Yang Zhang, <u><b>Chongming Gao</b></u>, Xinyue Li, Jizhi Zhang, Qifan
-                            Wang, Fuli Feng
-                            <br> SIGIR 2024 &nbsp;&nbsp;
-                            <a href="https://github.com/jizhi-zhang/BiLLP" target="_blank">Code</a> &nbsp;&nbsp;
-                            <a href="https://zhuanlan.zhihu.com/p/6170255791" target="_blank">知乎</a> &nbsp;&nbsp;
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="https://openreview.net/pdf?id=VnI9200eeL" target="_blank"><img
-                                    src="./pdf.gif"><br>pdf</a></td>
-                        <td class="pub_info"><span class="title">Auctionformer: A Unified Deep Learning Algorithm for Solving
-                                Equilibrium Strategies in Auction Games</span>
-                            <br>Kexin Huang, Ziqian Chen, Xue Wang, <u><b>Chongming Gao</b></u>, Jinyang Gao, Bolin Ding, Xiang Wang
-                            <br> ICML 2024 &nbsp;&nbsp;
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="https://arxiv.org/pdf/2405.08582" target="_blank"><img src="./pdf.gif"><br>pdf</a>
-                        </td>
-                        <td class="pub_info"><span class="title">Treatment Effect Estimation for User Interest Exploration on
-                                Recommender Systems</span>
-                            <br>Jiaju Chen, Wenjie Wang, <u><b>Chongming Gao</b></u>, Peng Wu, Jianxiong Wei, Qingsong Hua
-                            <br> SIGIR 2024 &nbsp;&nbsp;
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="https://arxiv.org/pdf/2403.17745" target="_blank"><img src="./pdf.gif"><br>pdf</a>
-                        </td>
-                        <td class="pub_info"><span class="title">Leave No Patient Behind: Enhancing Medication Recommendation for
-                                Rare Disease Patients</span>
-                            <br>Zihao Zhao, Yi Jing, Fuli Feng, Jiancan Wu, <u><b>Chongming Gao</b></u>, Xiangnan He
-                            <br> SIGIR 2024 &nbsp;&nbsp;
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+            <ul class="publication-list">
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-28-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">TOIS 2024</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-28-title"><a href="https://arxiv.org/pdf/2204.01266.pdf" target="_blank" rel="noopener noreferrer">CIRS: Bursting Filter Bubbles by Counterfactual Interactive Recommender System</a></h4>
+                            <p class="pub-authors"><u><b>Chongming Gao</b></u>, Shiqi Wang, Shijun Li, Jiawei Chen*, Xiangnan He*, Wenqiang Lei, Biao Li, Yuan Zhang, Peng Jiang</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://arxiv.org/pdf/2204.01266.pdf" target="_blank" rel="noopener noreferrer">PDF</a>
+                                    <a href="https://cdn.chongminggao.top/files/pdf/CIRS-slides.pdf" target="_blank" rel="noopener noreferrer">Slides</a>
+                                    <a href="https://github.com/chongminggao/CIRS-codes" target="_blank" rel="noopener noreferrer">Code</a>
+                                    <a href="https://zhuanlan.zhihu.com/p/530441122" target="_blank" rel="noopener noreferrer">知乎</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Long-term Recommendation</li>
+                                    <li>Reinforcement Learning</li>
+                                    <li>Causal Inference</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-29-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">SIGIR 2024</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-29-title"><a href="https://dl.acm.org/doi/pdf/10.1145/3626772.3657868" target="_blank" rel="noopener noreferrer">EasyRL4Rec: An Easy-to-use Library for Reinforcement Learning Based Recommender Systems</a></h4>
+                            <p class="pub-authors">Yuanqing Yu, <u><b>Chongming Gao*</b></u>, Jiawei Chen, Heng Tang, Yuefeng Sun, Qian Chen, Weizhi Ma, Min Zhang</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://dl.acm.org/doi/pdf/10.1145/3626772.3657868" target="_blank" rel="noopener noreferrer">PDF</a>
+                                    <a href="https://github.com/chongminggao/EasyRL4Rec" target="_blank" rel="noopener noreferrer">Code</a>
+                                    <a href="https://zhuanlan.zhihu.com/p/6135006392" target="_blank" rel="noopener noreferrer">知乎</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Reinforcement Learning</li>
+                                    <li>Long-term Recommendation</li>
+                                    <li>Evaluation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-30-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">CIKM 2024</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-30-title"><a href="https://dl.acm.org/doi/pdf/10.1145/3627673.3679792" target="_blank" rel="noopener noreferrer">Reformulating Conversational Recommender Systems as Tri-Phase Offline Policy Learning</a></h4>
+                            <p class="pub-authors">Gangyi Zhang, <u><b>Chongming Gao*</b></u>, Hang Pan, Runzhe Teng, Ruizhe Li</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://dl.acm.org/doi/pdf/10.1145/3627673.3679792" target="_blank" rel="noopener noreferrer">PDF</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Conversational Recommendation</li>
+                                    <li>Reinforcement Learning</li>
+                                    <li>User Simulation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-31-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">EMNLP 2024</span>
+                            <span class="publication-track">Findings</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-31-title"><a href="https://arxiv.org/pdf/2406.13443" target="_blank" rel="noopener noreferrer">Dual-Phase Accelerated Prompt Optimization</a></h4>
+                            <p class="pub-authors">Muchen Yang, Moxin Li, Yongle Li, Zijun Chen, <u><b>Chongming Gao*</b></u>, Junqi Zhang, Yangyang Li, Fuli Feng</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://arxiv.org/pdf/2406.13443" target="_blank" rel="noopener noreferrer">PDF</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Prompt Optimization</li>
+                                    <li>Efficiency</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-32-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">SIGIR 2024</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-32-title"><a href="https://arxiv.org/pdf/2403.00843" target="_blank" rel="noopener noreferrer">Large Language Models are Learnable Planners for Long-Term Recommendation</a></h4>
+                            <p class="pub-authors">Wentao Shi, Xiangnan He, Yang Zhang, <u><b>Chongming Gao</b></u>, Xinyue Li, Jizhi Zhang, Qifan Wang, Fuli Feng</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://arxiv.org/pdf/2403.00843" target="_blank" rel="noopener noreferrer">PDF</a>
+                                    <a href="https://github.com/jizhi-zhang/BiLLP" target="_blank" rel="noopener noreferrer">Code</a>
+                                    <a href="https://zhuanlan.zhihu.com/p/6170255791" target="_blank" rel="noopener noreferrer">知乎</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Agent</li>
+                                    <li>Long-term Recommendation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-33-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">ICML 2024</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-33-title"><a href="https://openreview.net/pdf?id=VnI9200eeL" target="_blank" rel="noopener noreferrer">Auctionformer: A Unified Deep Learning Algorithm for Solving Equilibrium Strategies in Auction Games</a></h4>
+                            <p class="pub-authors">Kexin Huang, Ziqian Chen, Xue Wang, <u><b>Chongming Gao</b></u>, Jinyang Gao, Bolin Ding, Xiang Wang</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://openreview.net/pdf?id=VnI9200eeL" target="_blank" rel="noopener noreferrer">PDF</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Game Theory</li>
+                                    <li>Equilibrium Learning</li>
+                                    <li>Auctions</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-34-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">SIGIR 2024</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-34-title"><a href="https://arxiv.org/pdf/2405.08582" target="_blank" rel="noopener noreferrer">Treatment Effect Estimation for User Interest Exploration on Recommender Systems</a></h4>
+                            <p class="pub-authors">Jiaju Chen, Wenjie Wang, <u><b>Chongming Gao</b></u>, Peng Wu, Jianxiong Wei, Qingsong Hua</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://arxiv.org/pdf/2405.08582" target="_blank" rel="noopener noreferrer">PDF</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Causal Inference</li>
+                                    <li>Interest Exploration</li>
+                                    <li>Debiasing</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-35-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">SIGIR 2024</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-35-title"><a href="https://arxiv.org/pdf/2403.17745" target="_blank" rel="noopener noreferrer">Leave No Patient Behind: Enhancing Medication Recommendation for Rare Disease Patients</a></h4>
+                            <p class="pub-authors">Zihao Zhao, Yi Jing, Fuli Feng, Jiancan Wu, <u><b>Chongming Gao</b></u>, Xiangnan He</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://arxiv.org/pdf/2403.17745" target="_blank" rel="noopener noreferrer">PDF</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Healthcare</li>
+                                    <li>Medication Recommendation</li>
+                                    <li>Fairness</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
 
             <h3 class="publication-year">2023 and earlier</h3>
 
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="https://arxiv.org/pdf/2101.09459.pdf" target="_blank"><img
-                                    src="./pdf.gif"><br>pdf</a></td>
-                        <!-- <td class="left"><a href="https://arxiv.org/pdf/2408.06809" target="_blank"><img src="./files/pdf.gif"><br>pdf</a></td> -->
-                        <td class="pub_info"><span class="title">Advances and Challenges in Conversational Recommender Systems: A
-                                Survey</span>
-                            <br><u><b>Chongming Gao</b></u>, Wenqiang Lei, Xiangnan He, Maarten de Rijke, Tat-Seng Chua
-                            <br> AI Open 2021 &nbsp;&nbsp;<a
-                                href="https://cdn.chongminggao.top/files/pdf/Survey%20of%20CRS%20%2845minutes%20slide%29.pdf"
-                                target="_blank">Slides</a> &nbsp;&nbsp; <span class="pub_highlight">Survey</span>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="https://arxiv.org/pdf/2307.04571.pdf" target="_blank"><img
-                                    src="./pdf.gif"><br>pdf</a></td>
-                        <td class="pub_info"><span class="title">Alleviating Matthew Effect of Offline Reinforcement Learning in
-                                Interactive Recommendation</span>
-                            <br><u><b>Chongming Gao</b></u>, Kexin Huang, Jiawei Chen, Yuan Zhang, Biao Li, Peng Jiang, Shiqi Wang,
-                            Zhong Zhang, Xiangnan He
-                            <br> SIGIR 2023 &nbsp;&nbsp;
-                            <a href="https://cdn.chongminggao.top/files/pdf/DORL-slides.pdf" target="_blank">Slides</a> &nbsp;&nbsp;
-                            <a href="https://github.com/chongminggao/DORL-codes" target="_blank">Code</a> &nbsp;&nbsp;
-                            <a href="https://zhuanlan.zhihu.com/p/646690133" target="_blank">知乎</a> &nbsp;&nbsp;
-                            <span class="pub_highlight">Best Paper Honorable Mention</span>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="https://arxiv.org/pdf/2302.03472.pdf" target="_blank"><img
-                                    src="./pdf.gif"><br>pdf</a></td>
-                        <!-- <td class="left"><a href="https://arxiv.org/pdf/2408.06809" target="_blank"><img src="./files/pdf.gif"><br>pdf</a></td> -->
-                        <td class="pub_info"><span class="title">On the Theories Behind Hard Negative Sampling for Recommendation</span>
-                            <br>Wentao Shi, Jiawei Chen, Fuli Feng, Jizhi Zhang, Junkang Wu, <u><b>Chongming Gao</b></u>, Xiangnan He
-                            <br> WWW 2023 &nbsp;&nbsp;<a
-                                href="https://github.com/swt-user/swt-user.github.io/Homepage_files/slides_WWW_2023.pdf"
-                                target="_blank">Slides</a> 
-                                &nbsp;&nbsp; <a href="https://github.com/swt-user/WWW_2023_code" target="_blank">Code</a>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="https://arxiv.org/pdf/2208.08696.pdf" target="_blank"><img
-                                    src="./pdf.gif"><br>pdf</a></td>
-                        <td class="pub_info"><span class="title">KuaiRand: An Unbiased Sequential Recommendation Dataset with
-                                Randomly Exposed Videos</span>
-                            <br><u><b>Chongming Gao</b></u>, Shijun Li, Yuan Zhang, Jiawei Chen, Biao Li, Xiangnan He, Wenqiang Lei,
-                            Peng Jiang
-                            <br> CIKM 2022 &nbsp;&nbsp;
-                            <a href="https://kuairand.com" target="_blank">Webpage</a> &nbsp;&nbsp;
-                            <a href="https://zhuanlan.zhihu.com/p/566393720" target="_blank">知乎</a> &nbsp;&nbsp;
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="https://arxiv.org/pdf/2202.10842.pdf" target="_blank"><img
-                                    src="./pdf.gif"><br>pdf</a></td>
-                        <td class="pub_info"><span class="title">KuaiRec: A Fully-observed Dataset and Insights for Evaluating
-                                Recommender Systems</span>
-                            <br><u><b>Chongming Gao</b></u>, Shijun Li, Wenqiang Lei, Biao Li, Peng Jiang, Jiawei Chen, Xiangnan He,
-                            Jiaxin Mao, Tat-Seng Chua
-                            <br> CIKM 2022 &nbsp;&nbsp;
-                            <a href="https://kuairec.com" target="_blank">Webpage</a> &nbsp;&nbsp;
-                            <a href="https://zhuanlan.zhihu.com/p/530438756" target="_blank">知乎</a> &nbsp;&nbsp;
-                            <a href="https://colab.research.google.com/github/chongminggao/KuaiRec/blob/main/Statistcs_KuaiRec.ipynb"
-                                target="_blank">Statistics</a> &nbsp;&nbsp;
-                            <a href="https://github.com/xiwenchao/fully_observed_demo" target="_blank">Demo</a> &nbsp;&nbsp;
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="https://arxiv.org/pdf/2309.04884" target="_blank"><img src="./pdf.gif"><br>pdf</a>
-                        </td>
-                        <td class="pub_info"><span class="title">RecAD: Towards A Unified Library for Recommender Attack and
-                                Defense</span>
-                            <br>Changsheng Wang, Jianbai Ye, Wenjie Wang, <u><b>Chongming Gao</b></u>, Fuli Feng, Xiangnan He
-                            <br> RecSys 2023 &nbsp;&nbsp;
-                            <a href="https://github.com/gusye1234/recad" target="_blank">Code</a> &nbsp;&nbsp;
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a href="https://cdn.chongminggao.top/files/pdf/Revisiting Representation Degeneration Problem in Language Modeling.pdf" target="_blank"><img
-                                    src="./pdf.gif"><br>pdf</a></td>
-                        <!-- <td class="left"><a href="https://arxiv.org/pdf/2408.06809" target="_blank"><img src="./files/pdf.gif"><br>pdf</a></td> -->
-                        <td class="pub_info"><span class="title">Revisiting Representation Degeneration Problem in Language Modeling</span>
-                            <br>Zhong Zhang, <u><b>Chongming Gao</b></u>, Cong Xu, Rui Miao, Qinli Yang, Junming Shao
-                            <br> EMNLP 2020
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left"><a
-                                href="https://cdn.chongminggao.top/files/pdf/Towards Robust Arbitrarily Oriented Subspace Clustering.pdf"
-                                target="_blank"><img src="./pdf.gif"><br>pdf</a></td>
-                        <!-- <td class="left"><a href="https://arxiv.org/pdf/2408.06809" target="_blank"><img src="./files/pdf.gif"><br>pdf</a></td> -->
-                        <td class="pub_info"><span class="title">Towards Robust Arbitrarily Oriented Subspace Clustering</span>
-                            <br>Zhong Zhang, <u><b>Chongming Gao</b></u>, Chongzhi Liu, Qinli Yang, Junming Shao
-                            <br> DASFAA 2019 &nbsp;&nbsp; <span class="pub_highlight">Best Paper Award</span>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+            <ul class="publication-list">
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-36-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">SIGIR 2023</span>
+                            <span class="pub_highlight pub_highlight--honorable"><span>Best Paper</span> <span>Honorable Mention</span></span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-36-title"><a href="https://arxiv.org/pdf/2307.04571.pdf" target="_blank" rel="noopener noreferrer">Alleviating Matthew Effect of Offline Reinforcement Learning in Interactive Recommendation</a></h4>
+                            <p class="pub-authors"><u><b>Chongming Gao</b></u>, Kexin Huang, Jiawei Chen, Yuan Zhang, Biao Li, Peng Jiang, Shiqi Wang, Zhong Zhang, Xiangnan He</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://arxiv.org/pdf/2307.04571.pdf" target="_blank" rel="noopener noreferrer">PDF</a>
+                                    <a href="https://cdn.chongminggao.top/files/pdf/DORL-slides.pdf" target="_blank" rel="noopener noreferrer">Slides</a>
+                                    <a href="https://github.com/chongminggao/DORL-codes" target="_blank" rel="noopener noreferrer">Code</a>
+                                    <a href="https://zhuanlan.zhihu.com/p/646690133" target="_blank" rel="noopener noreferrer">知乎</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Reinforcement Learning</li>
+                                    <li>Debiasing</li>
+                                    <li>Long-term Recommendation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-37-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">WWW 2023</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-37-title"><a href="https://arxiv.org/pdf/2302.03472.pdf" target="_blank" rel="noopener noreferrer">On the Theories Behind Hard Negative Sampling for Recommendation</a></h4>
+                            <p class="pub-authors">Wentao Shi, Jiawei Chen, Fuli Feng, Jizhi Zhang, Junkang Wu, <u><b>Chongming Gao</b></u>, Xiangnan He</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://arxiv.org/pdf/2302.03472.pdf" target="_blank" rel="noopener noreferrer">PDF</a>
+                                    <a href="https://github.com/swt-user/swt-user.github.io/Homepage_files/slides_WWW_2023.pdf" target="_blank" rel="noopener noreferrer">Slides</a>
+                                    <a href="https://github.com/swt-user/WWW_2023_code" target="_blank" rel="noopener noreferrer">Code</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Negative Sampling</li>
+                                    <li>Learning to Rank</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-38-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">CIKM 2022</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-38-title"><a href="https://arxiv.org/pdf/2208.08696.pdf" target="_blank" rel="noopener noreferrer">KuaiRand: An Unbiased Sequential Recommendation Dataset with Randomly Exposed Videos</a></h4>
+                            <p class="pub-authors"><u><b>Chongming Gao</b></u>, Shijun Li, Yuan Zhang, Jiawei Chen, Biao Li, Wenqiang Lei, Peng Jiang, Xiangnan He</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://arxiv.org/pdf/2208.08696.pdf" target="_blank" rel="noopener noreferrer">PDF</a>
+                                    <a href="https://kuairand.com" target="_blank" rel="noopener noreferrer">Webpage</a>
+                                    <a href="https://zhuanlan.zhihu.com/p/566393720" target="_blank" rel="noopener noreferrer">知乎</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Dataset</li>
+                                    <li>Debiasing</li>
+                                    <li>Sequential Recommendation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-39-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">CIKM 2022</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-39-title"><a href="https://arxiv.org/pdf/2202.10842.pdf" target="_blank" rel="noopener noreferrer">KuaiRec: A Fully-observed Dataset and Insights for Evaluating Recommender Systems</a></h4>
+                            <p class="pub-authors"><u><b>Chongming Gao</b></u>, Shijun Li, Wenqiang Lei, Jiawei Chen, Biao Li, Peng Jiang, Xiangnan He, Jiaxin Mao, Tat-Seng Chua</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://arxiv.org/pdf/2202.10842.pdf" target="_blank" rel="noopener noreferrer">PDF</a>
+                                    <a href="https://kuairec.com" target="_blank" rel="noopener noreferrer">Webpage</a>
+                                    <a href="https://zhuanlan.zhihu.com/p/530438756" target="_blank" rel="noopener noreferrer">知乎</a>
+                                    <a href="https://colab.research.google.com/github/chongminggao/KuaiRec/blob/main/Statistcs_KuaiRec.ipynb" target="_blank" rel="noopener noreferrer">Statistics</a>
+                                    <a href="https://github.com/xiwenchao/fully_observed_demo" target="_blank" rel="noopener noreferrer">Demo</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Dataset</li>
+                                    <li>Evaluation</li>
+                                    <li>User Simulation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-40-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">RecSys 2023</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-40-title"><a href="https://arxiv.org/pdf/2309.04884" target="_blank" rel="noopener noreferrer">RecAD: Towards A Unified Library for Recommender Attack and Defense</a></h4>
+                            <p class="pub-authors">Changsheng Wang, Jianbai Ye, Wenjie Wang, <u><b>Chongming Gao</b></u>, Fuli Feng, Xiangnan He</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://arxiv.org/pdf/2309.04884" target="_blank" rel="noopener noreferrer">PDF</a>
+                                    <a href="https://github.com/gusye1234/recad" target="_blank" rel="noopener noreferrer">Code</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Robustness</li>
+                                    <li>Adversarial Attacks</li>
+                                    <li>Evaluation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-41-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">EMNLP 2020</span>
+                            <span class="publication-track">Findings</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-41-title"><a href="https://cdn.chongminggao.top/files/pdf/Revisiting Representation Degeneration Problem in Language Modeling.pdf" target="_blank" rel="noopener noreferrer">Revisiting Representation Degeneration Problem in Language Modeling</a></h4>
+                            <p class="pub-authors">Zhong Zhang, <u><b>Chongming Gao</b></u>, Cong Xu, Rui Miao, Qinli Yang, Junming Shao</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://cdn.chongminggao.top/files/pdf/Revisiting Representation Degeneration Problem in Language Modeling.pdf" target="_blank" rel="noopener noreferrer">PDF</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Representation Learning</li>
+                                    <li>Language Modeling</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="publication-row" aria-labelledby="publication-42-title">
+                        <div class="publication-meta">
+                            <span class="publication-venue">DASFAA 2019</span>
+                            <span class="pub_highlight">Best Paper Award</span>
+                        </div>
+                        <div class="publication-content">
+                            <h4 class="publication-title" id="publication-42-title"><a href="https://cdn.chongminggao.top/files/pdf/Towards Robust Arbitrarily Oriented Subspace Clustering.pdf" target="_blank" rel="noopener noreferrer">Towards Robust Arbitrarily Oriented Subspace Clustering</a></h4>
+                            <p class="pub-authors">Zhong Zhang, <u><b>Chongming Gao</b></u>, Chongzhi Liu, Qinli Yang, Junming Shao</p>
+                            <div class="publication-footer">
+                                <div class="publication-resources">
+                                    <a href="https://cdn.chongminggao.top/files/pdf/Towards Robust Arbitrarily Oriented Subspace Clustering.pdf" target="_blank" rel="noopener noreferrer">PDF</a>
+                                </div>
+                                <ul class="publication-tags" aria-label="Research topics">
+                                    <li>Clustering</li>
+                                    <li>Robustness</li>
+                                    <li>Low-rank Optimization</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
 
             <!-- <paper>
                 <img src="https://cdn.chongminggao.top/figure/freetrial.jpg">
@@ -911,8 +1203,16 @@
                     <tbody>
                         <tr>
                             <td class="table_date">2025</td>
+                            <td class="table_desc"><a href="https://aaai.net.cn/detail/199" target="_blank" rel="noopener noreferrer">Outstanding Young Scientist (优秀青年科学家)</a>, Anhui Association for Artificial Intelligence (安徽省人工智能学会).</td>
+                        </tr>
+                        <tr>
+                            <td class="table_date">2025</td>
                             <td class="table_desc"> One of our papers won the <a href="awards/Best_Paper_WSDM_2025.jpg"
                                     target="_blank">Best Paper Award</a> of WSDM 2025 (CCF-B， THU-A).</td>
+                        </tr>
+                        <tr>
+                            <td class="table_date">2024</td>
+                            <td class="table_desc">Selected for the <a href="https://www.chinapostdoctor.org.cn/article?inid=fc7da3d7-7f1f-4e3d-81c8-65725b884c0e&amp;catname=%E9%80%9A%E7%9F%A5%E5%85%AC%E5%91%8A&amp;catid=8c892b1c-4ade-4a5f-9a87-5e736cb5e9f9" target="_blank" rel="noopener noreferrer">National Postdoctoral Researcher Funding Program (国家资助博士后研究人员计划)</a>. The only recipient in USTC’s Computer Science and Technology discipline that year.</td>
                         </tr>
                         <tr>
                             <td class="table_date">2023</td>
