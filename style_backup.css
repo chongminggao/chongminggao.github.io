@@ -1371,7 +1371,6 @@ h6 {
   position: relative;
   width: 960px; 
 
-  /*background-image: url("http://cdn.chongminggao.top/background/profile_white.jpg");*/
   background-image: url("../photo/profile_flip.jpg");
   background-repeat: no-repeat;
   background-size: 320px;
@@ -1509,7 +1508,7 @@ body {
         padding-right: 5px; }
 
 .home-page {
-  /*background-image: url("http://cdn.chongminggao.top/background/photo_1937x1453.jpg");*/
+  /*background-image: url("/photo/photo_1937x1453.jpg");*/
   background-image: url("../photo/background_shallow.jpg");
   background-position: 0px -60px; 
   background-size: cover;
@@ -1519,7 +1518,6 @@ body {
   border-top-right-radius: 20px;}
 
 .about-page {
-  background-image: url("http://cdn.chongminggao.top/background/profile_white.jpg");
   background-repeat: no-repeat;
   background-size: 420px;
   background-position: left bottom;

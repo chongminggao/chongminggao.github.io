@@ -1,4 +1,4 @@
 [\'"](?:\.{0,2}/)?(image|files|photo|fonts|logo)(/.*?\.)(png|jpg|pdf|woff2|woff|eot|svg|ttf)(.*?)[\'"]
 
 
-"http://cdn.chongminggao.top/$1$2$3$4"
+"/$1$2$3$4"

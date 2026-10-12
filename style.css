@@ -64,7 +64,7 @@ body {
   background: linear-gradient(rgba(255,255,255,0.3),rgba(245,245,245,0.9)), 
   /*url("image/night-right.jpg");*/
   /*url("image/moss.png");*/
-  url("https://cdn.chongminggao.top/image/corner.jpg");
+  url("/image/corner.jpg");
   background-position: right top;
   background-repeat: repeat;
   opacity: 1; 
@@ -85,8 +85,7 @@ body {
   position: relative;
   width: 960px; 
 
-  /*background-image: url("https://cdn.chongminggao.top/background/profile_white.jpg");*/
-  background-image: url("https://cdn.chongminggao.top/photo/profile_flip.jpg");
+  background-image: url("/photo/profile_flip.jpg");
   background-repeat: no-repeat;
   background-size: 320px;
   background-position: right bottom;
